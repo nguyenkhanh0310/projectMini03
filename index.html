@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Mini 03</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2>Danh mục sản phẩm</h2>
+    <div id="category" class="category__list">
+        <!-- <div class="category__item">
+            abc
+        </div> -->
+    </div>
+
+    <h2>Danh sách sản phẩm</h2>
+    <div class="search" id="search">
+        <input type="text" >
+        <button>Search</button>
+    </div>
+
+    <select id="filter">
+        <option value="default">Mặc định</option>
+        <option value="lowToHigh">Giá thấp đến cao</option>
+        <option value="highToLow">Giá cao đến thấp</option>
+        <option value="bigDiscount">Giảm giá nhiều</option>
+    </select>
+
+    <div id="products" class="product__list">
+        <!-- <div class="product__item">
+            <div class="product__image">
+                <img src="" alt="">
+                <div class="product__percent"></div>
+            </div>
+
+            <div class="product__content">
+                <h3 class="product__title"></h3>
+                <div class="product__meta">
+                    <div class="product__price">100$</div>
+                    <div class="product__stock">Còn lại: 10 sp</div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <div class="pagination">
+        <span class="pagination__button" id="paginationPrev">Prev</span>
+        <span class="pagination__number" id="paginationNumber">1</span>
+        <span class="pagination__button" id="paginationNext">Next</span>
+    </div>
+
+    <script type="module" src="./js/category.js"></script>
+    <script type="module" src="./js/product.js"></script>
+</body>
+</html>
